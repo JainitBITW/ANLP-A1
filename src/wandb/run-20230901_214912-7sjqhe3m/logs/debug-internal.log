@@ -1,0 +1,320 @@
+2023-09-01 21:49:18,649 INFO    StreamThr :15186 [internal.py:wandb_internal():86] W&B internal server running at pid: 15186, started at: 2023-09-01 21:49:18.647943
+2023-09-01 21:49:18,652 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status
+2023-09-01 21:49:18,653 INFO    WriterThread:15186 [datastore.py:open_for_write():85] open: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/run-7sjqhe3m.wandb
+2023-09-01 21:49:18,657 DEBUG   SenderThread:15186 [sender.py:send():379] send: header
+2023-09-01 21:49:18,657 DEBUG   SenderThread:15186 [sender.py:send():379] send: run
+2023-09-01 21:49:19,402 INFO    SenderThread:15186 [dir_watcher.py:__init__():211] watching files in: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files
+2023-09-01 21:49:19,402 INFO    SenderThread:15186 [sender.py:_start_run_threads():1121] run started: 7sjqhe3m with start time 1693585157.80917
+2023-09-01 21:49:19,413 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:49:19,415 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:49:19,432 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: check_version
+2023-09-01 21:49:19,433 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: check_version
+2023-09-01 21:49:19,602 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: run_start
+2023-09-01 21:49:19,606 DEBUG   HandlerThread:15186 [system_info.py:__init__():31] System info init
+2023-09-01 21:49:19,607 DEBUG   HandlerThread:15186 [system_info.py:__init__():46] System info init done
+2023-09-01 21:49:19,607 INFO    HandlerThread:15186 [system_monitor.py:start():181] Starting system monitor
+2023-09-01 21:49:19,607 INFO    SystemMonitor:15186 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-01 21:49:19,607 INFO    HandlerThread:15186 [system_monitor.py:probe():201] Collecting system info
+2023-09-01 21:49:19,608 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started cpu monitoring
+2023-09-01 21:49:19,609 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started disk monitoring
+2023-09-01 21:49:19,610 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started gpu monitoring
+2023-09-01 21:49:19,611 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started memory monitoring
+2023-09-01 21:49:19,612 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started network monitoring
+2023-09-01 21:49:19,659 DEBUG   HandlerThread:15186 [system_info.py:probe():195] Probing system
+2023-09-01 21:49:19,660 DEBUG   HandlerThread:15186 [system_info.py:_probe_git():180] Probing git
+2023-09-01 21:49:19,695 DEBUG   HandlerThread:15186 [system_info.py:_probe_git():188] Probing git done
+2023-09-01 21:49:19,696 DEBUG   HandlerThread:15186 [system_info.py:probe():240] Probing system done
+2023-09-01 21:49:19,696 DEBUG   HandlerThread:15186 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-212-generic-x86_64-with-glibc2.27', 'python': '3.9.17', 'heartbeatAt': '2023-09-01T16:19:19.659178', 'startedAt': '2023-09-01T16:19:12.648294', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:JainitBITW/ANLP-A1.git', 'commit': 'c9454d17ecc8c05b32e980e06cfc7e24822a57de'}, 'email': 'jainit.bafna@research.iiit.ac.in', 'root': '/home2/jainit/ANLP-A1', 'host': 'gnode030', 'username': 'jainit', 'executable': '/home2/jainit/anlp/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1270.6421750000002, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1200.459, 'min': 1200.0, 'max': 3400.0}, {'current': 1707.11, 'min': 1200.0, 'max': 3400.0}, {'current': 1208.823, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.95, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.465, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.508, 'min': 1200.0, 'max': 3400.0}, {'current': 2406.796, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.353, 'min': 1200.0, 'max': 3400.0}, {'current': 2122.976, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.887, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.684, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.489, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.956, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.955, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.656, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.638, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.799, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.92, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.056, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.905, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.031, 'min': 1200.0, 'max': 3400.0}, {'current': 1510.38, 'min': 1200.0, 'max': 3400.0}, {'current': 1297.642, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.196, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.434, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.531, 'min': 1200.0, 'max': 3400.0}, {'current': 2400.343, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.416, 'min': 1200.0, 'max': 3400.0}, {'current': 2204.097, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.314, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.112, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.15, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.534, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.922, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.869, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.269, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.989, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.966, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.639, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.197, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 136.48257064819336, 'used': 93.48074722290039}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 125.78692245483398}}
+2023-09-01 21:49:19,696 INFO    HandlerThread:15186 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-01 21:49:19,696 INFO    HandlerThread:15186 [system_monitor.py:probe():214] Publishing system info
+2023-09-01 21:49:19,696 DEBUG   HandlerThread:15186 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-01 21:49:19,698 DEBUG   HandlerThread:15186 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-01 21:49:19,700 INFO    HandlerThread:15186 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-01 21:49:19,701 DEBUG   SenderThread:15186 [sender.py:send():379] send: files
+2023-09-01 21:49:19,701 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-01 21:49:19,729 DEBUG   SenderThread:15186 [sender.py:send():379] send: telemetry
+2023-09-01 21:49:19,730 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:49:19,730 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:49:20,406 INFO    Thread-133:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/requirements.txt
+2023-09-01 21:49:20,406 INFO    Thread-133:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:49:20,407 INFO    Thread-133:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-metadata.json
+2023-09-01 21:49:20,407 INFO    Thread-133:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:49:20,782 INFO    wandb-upload_0:15186 [upload_job.py:push():131] Uploaded file /tmp/tmpe04vdrw3wandb/5i6jx7x0-wandb-metadata.json
+2023-09-01 21:49:22,405 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:49:24,177 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:29,178 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:34,179 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:34,730 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:49:34,731 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:49:40,042 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:45,043 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:49,729 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:49:49,730 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:49:50,065 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:50,431 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/config.yaml
+2023-09-01 21:49:51,545 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:49:51,549 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:49:51,550 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:49:51,553 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:49:52,434 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:49:52,434 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:49:54,819 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:49:54,821 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:49:54,821 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:49:54,823 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:49:55,437 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:49:55,824 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:49:56,438 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:50:00,825 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:04,728 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:50:04,728 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:50:06,120 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:11,121 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:16,122 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:19,612 DEBUG   SystemMonitor:15186 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-01 21:50:19,615 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:50:19,728 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:50:19,729 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:50:22,112 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:26,246 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:50:26,251 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:50:26,251 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:50:26,253 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:50:26,464 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:50:27,254 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:28,467 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:50:29,752 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:50:29,754 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:50:29,755 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:50:29,759 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:50:30,470 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:50:30,470 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:50:32,760 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:34,729 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:50:34,729 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:50:38,116 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:43,118 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:48,119 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:49,617 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:50:49,731 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:50:49,732 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:50:53,125 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:50:58,126 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:01,483 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:51:01,485 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:51:01,486 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:51:01,488 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:51:01,496 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:51:02,498 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:51:03,489 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:04,730 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:51:04,731 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:51:04,758 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:51:05,088 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:51:05,088 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:51:05,090 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:51:05,501 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:51:06,502 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:51:09,091 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:14,092 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:19,093 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:19,619 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:51:19,729 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:51:19,730 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:51:24,132 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:29,133 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:34,134 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:34,731 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:51:34,732 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:51:35,763 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:51:35,767 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:51:35,768 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:51:35,769 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:51:36,528 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:51:36,529 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:51:39,004 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:51:39,005 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:51:39,006 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:51:39,009 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:51:39,531 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:51:40,010 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:40,533 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:51:45,010 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:49,621 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:51:49,734 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:51:49,734 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:51:50,098 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:51:55,099 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:00,100 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:04,736 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:52:04,736 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:52:06,062 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:10,698 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:52:10,702 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:52:10,702 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:52:10,706 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:52:11,561 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:52:11,707 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:12,562 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:52:13,979 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:52:13,980 DEBUG   SenderThread:15186 [sender.py:send():379] send: history
+2023-09-01 21:52:13,980 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:52:13,982 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:52:14,564 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:52:16,567 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:52:16,983 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:19,624 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:52:19,735 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:52:19,735 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:52:22,206 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:27,207 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:32,208 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:34,734 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:52:34,735 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:52:38,077 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:43,078 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:48,079 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:49,626 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:52:49,735 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:52:49,736 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:52:52,522 DEBUG   SenderThread:15186 [sender.py:send():379] send: telemetry
+2023-09-01 21:52:52,522 DEBUG   SenderThread:15186 [sender.py:send():379] send: exit
+2023-09-01 21:52:52,522 INFO    SenderThread:15186 [sender.py:send_exit():584] handling exit code: 0
+2023-09-01 21:52:52,522 INFO    SenderThread:15186 [sender.py:send_exit():586] handling runtime: 212
+2023-09-01 21:52:52,524 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:52:52,525 INFO    SenderThread:15186 [sender.py:send_exit():592] send defer
+2023-09-01 21:52:52,525 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,525 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-01 21:52:52,526 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,526 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-01 21:52:52,526 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 1
+2023-09-01 21:52:52,526 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,526 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-01 21:52:52,527 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,527 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-01 21:52:52,527 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 2
+2023-09-01 21:52:52,527 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,527 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-01 21:52:52,527 INFO    HandlerThread:15186 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-01 21:52:52,528 DEBUG   SystemMonitor:15186 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-01 21:52:52,528 DEBUG   SystemMonitor:15186 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-01 21:52:52,530 INFO    HandlerThread:15186 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-01 21:52:52,531 INFO    HandlerThread:15186 [interfaces.py:finish():202] Joined disk monitor
+2023-09-01 21:52:52,601 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:52:52,822 INFO    HandlerThread:15186 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-01 21:52:52,822 INFO    HandlerThread:15186 [interfaces.py:finish():202] Joined memory monitor
+2023-09-01 21:52:52,822 INFO    HandlerThread:15186 [interfaces.py:finish():202] Joined network monitor
+2023-09-01 21:52:52,823 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,823 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-01 21:52:52,824 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 3
+2023-09-01 21:52:52,824 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 21:52:52,824 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,825 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-01 21:52:52,826 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,826 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-01 21:52:52,826 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 4
+2023-09-01 21:52:52,826 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,826 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-01 21:52:52,827 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,827 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-01 21:52:52,827 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 5
+2023-09-01 21:52:52,827 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,827 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-01 21:52:52,828 DEBUG   SenderThread:15186 [sender.py:send():379] send: summary
+2023-09-01 21:52:52,830 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:52:52,831 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,831 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-01 21:52:52,831 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 6
+2023-09-01 21:52:52,831 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:52,831 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-01 21:52:52,832 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:52,832 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-01 21:52:52,837 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:53,143 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 7
+2023-09-01 21:52:53,143 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:53,143 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-01 21:52:53,144 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:53,144 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-01 21:52:53,510 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:53,602 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/config.yaml
+2023-09-01 21:52:53,603 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:52:54,488 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 8
+2023-09-01 21:52:54,488 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:54,488 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:54,489 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-01 21:52:54,489 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:54,490 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-01 21:52:54,490 INFO    SenderThread:15186 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-01 21:52:54,490 INFO    SenderThread:15186 [job_builder.py:build():297] run is notebook based run
+2023-09-01 21:52:54,491 INFO    SenderThread:15186 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-01 21:52:54,491 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 9
+2023-09-01 21:52:54,492 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:54,492 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-01 21:52:54,492 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:54,492 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-01 21:52:54,492 INFO    SenderThread:15186 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-01 21:52:54,510 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:54,603 INFO    Thread-133:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:52:54,605 INFO    SenderThread:15186 [dir_watcher.py:finish():388] scan: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files
+2023-09-01 21:52:54,605 INFO    SenderThread:15186 [dir_watcher.py:finish():402] scan save: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/requirements.txt requirements.txt
+2023-09-01 21:52:54,606 INFO    SenderThread:15186 [dir_watcher.py:finish():402] scan save: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json wandb-summary.json
+2023-09-01 21:52:54,611 INFO    SenderThread:15186 [dir_watcher.py:finish():402] scan save: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/config.yaml config.yaml
+2023-09-01 21:52:54,612 INFO    SenderThread:15186 [dir_watcher.py:finish():402] scan save: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log output.log
+2023-09-01 21:52:54,617 INFO    SenderThread:15186 [dir_watcher.py:finish():402] scan save: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-metadata.json wandb-metadata.json
+2023-09-01 21:52:54,617 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 10
+2023-09-01 21:52:54,617 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:54,618 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:54,619 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-01 21:52:54,629 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:54,629 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-01 21:52:54,629 INFO    SenderThread:15186 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 21:52:55,261 INFO    wandb-upload_1:15186 [upload_job.py:push():131] Uploaded file /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/wandb-summary.json
+2023-09-01 21:52:55,410 INFO    wandb-upload_0:15186 [upload_job.py:push():131] Uploaded file /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/requirements.txt
+2023-09-01 21:52:55,511 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:55,512 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:56,434 INFO    wandb-upload_2:15186 [upload_job.py:push():131] Uploaded file /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/config.yaml
+2023-09-01 21:52:56,486 INFO    wandb-upload_3:15186 [upload_job.py:push():131] Uploaded file /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/files/output.log
+2023-09-01 21:52:56,511 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:56,512 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:56,687 INFO    Thread-132:15186 [sender.py:transition_state():612] send defer: 11
+2023-09-01 21:52:56,688 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:56,688 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-01 21:52:56,688 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:56,689 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-01 21:52:56,689 INFO    SenderThread:15186 [file_pusher.py:join():164] waiting for file pusher
+2023-09-01 21:52:56,689 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 12
+2023-09-01 21:52:56,689 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:56,689 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-01 21:52:56,690 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:56,690 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-01 21:52:56,690 INFO    SenderThread:15186 [file_stream.py:finish():593] file stream finish called
+2023-09-01 21:52:57,512 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:59,080 INFO    SenderThread:15186 [file_stream.py:finish():597] file stream finish is done
+2023-09-01 21:52:59,080 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 13
+2023-09-01 21:52:59,081 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:59,081 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:59,082 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-01 21:52:59,082 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:52:59,082 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:59,083 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-01 21:52:59,083 INFO    SenderThread:15186 [sender.py:transition_state():612] send defer: 14
+2023-09-01 21:52:59,084 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:52:59,084 INFO    HandlerThread:15186 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-01 21:52:59,084 DEBUG   SenderThread:15186 [sender.py:send():379] send: final
+2023-09-01 21:52:59,085 DEBUG   SenderThread:15186 [sender.py:send():379] send: footer
+2023-09-01 21:52:59,085 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:52:59,085 INFO    SenderThread:15186 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-01 21:52:59,086 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:52:59,086 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: server_info
+2023-09-01 21:52:59,087 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:52:59,088 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-01 21:52:59,088 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-01 21:52:59,089 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: job_info
+2023-09-01 21:52:59,090 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: server_info
+2023-09-01 21:52:59,485 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: job_info
+2023-09-01 21:52:59,486 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-01 21:52:59,487 INFO    HandlerThread:15186 [handler.py:finish():861] shutting down handler
+2023-09-01 21:53:00,090 INFO    WriterThread:15186 [datastore.py:close():294] close: /home2/jainit/ANLP-A1/src/wandb/run-20230901_214912-7sjqhe3m/run-7sjqhe3m.wandb
+2023-09-01 21:53:00,485 INFO    SenderThread:15186 [sender.py:finish():1552] shutting down sender
+2023-09-01 21:53:00,485 INFO    SenderThread:15186 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 21:53:00,486 INFO    SenderThread:15186 [file_pusher.py:join():164] waiting for file pusher

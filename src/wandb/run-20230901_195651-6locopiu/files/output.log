@@ -1,0 +1,64 @@
+
+The Device is cuda
+Epoch: 1, Loss: 5.366886071373994
+VALID: Epoch: 1, Loss: 4.855107633800115
+Epoch: 2, Loss: 4.779313731966471
+VALID: Epoch: 2, Loss: 4.657644783151094
+Epoch: 3, Loss: 4.579056159100331
+VALID: Epoch: 3, Loss: 4.608833202818559
+Epoch: 4, Loss: 4.487580784954632
+VALID: Epoch: 4, Loss: 4.597569146427498
+Epoch: 5, Loss: 4.442452789423174
+VALID: Epoch: 5, Loss: 4.594182568515458
+Epoch: 6, Loss: 4.4200921332746965
+VALID: Epoch: 6, Loss: 4.593504391763636
+Epoch: 7, Loss: 4.408964305268856
+VALID: Epoch: 7, Loss: 4.593458945152319
+Epoch: 8, Loss: 4.403371245545936
+VALID: Epoch: 8, Loss: 4.592944323357436
+Epoch: 9, Loss: 4.400611146905476
+VALID: Epoch: 9, Loss: 4.59256192104888
+Epoch: 10, Loss: 4.39906086101199
+VALID: Epoch: 10, Loss: 4.593255833803571
+Model Saved
+Epoch: 11, Loss: 4.398479115338694
+VALID: Epoch: 11, Loss: 4.5934358437856035
+Epoch: 12, Loss: 4.3980314302920105
+VALID: Epoch: 12, Loss: 4.592808400285188
+Epoch: 13, Loss: 4.397912828999565
+VALID: Epoch: 13, Loss: 4.593568466474283
+Epoch: 14, Loss: 4.3978288028008325
+VALID: Epoch: 14, Loss: 4.59296006218517
+Epoch: 15, Loss: 4.397850478260297
+VALID: Epoch: 15, Loss: 4.593047267264476
+Epoch: 16, Loss: 4.39781577194718
+VALID: Epoch: 16, Loss: 4.593488945591883
+Epoch: 17, Loss: 4.397793181162522
+VALID: Epoch: 17, Loss: 4.593521056205364
+Epoch: 18, Loss: 4.397754141160675
+VALID: Epoch: 18, Loss: 4.593410783846043
+Epoch: 19, Loss: 4.397758336257459
+VALID: Epoch: 19, Loss: 4.593895950211921
+Epoch: 20, Loss: 4.397784379771226
+VALID: Epoch: 20, Loss: 4.5930764471750125
+Model Saved
+Epoch: 21, Loss: 4.397792286349651
+VALID: Epoch: 21, Loss: 4.5933652843155945
+Epoch: 22, Loss: 4.3977677514130935
+VALID: Epoch: 22, Loss: 4.593874812314484
+Epoch: 23, Loss: 4.397755245199227
+VALID: Epoch: 23, Loss: 4.593040634670529
+Epoch: 24, Loss: 4.397789313727781
+VALID: Epoch: 24, Loss: 4.592825813881029
+Epoch: 25, Loss: 4.397726862924057
+VALID: Epoch: 25, Loss: 4.593076205743245
+Epoch: 26, Loss: 4.3977631360812675
+VALID: Epoch: 26, Loss: 4.593122300566844
+Epoch: 27, Loss: 4.397785159477272
+VALID: Epoch: 27, Loss: 4.592883746017589
+[nltk_data] Downloading package punkt to /home2/jainit/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home2/jainit/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

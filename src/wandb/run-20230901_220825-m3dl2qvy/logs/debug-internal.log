@@ -1,0 +1,91 @@
+2023-09-01 22:08:32,417 INFO    StreamThr :15186 [internal.py:wandb_internal():86] W&B internal server running at pid: 15186, started at: 2023-09-01 22:08:32.415737
+2023-09-01 22:08:32,419 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status
+2023-09-01 22:08:32,421 INFO    WriterThread:15186 [datastore.py:open_for_write():85] open: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/run-m3dl2qvy.wandb
+2023-09-01 22:08:32,425 DEBUG   SenderThread:15186 [sender.py:send():379] send: header
+2023-09-01 22:08:32,425 DEBUG   SenderThread:15186 [sender.py:send():379] send: run
+2023-09-01 22:08:33,324 INFO    SenderThread:15186 [dir_watcher.py:__init__():211] watching files in: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/files
+2023-09-01 22:08:33,324 INFO    SenderThread:15186 [sender.py:_start_run_threads():1121] run started: m3dl2qvy with start time 1693586311.581016
+2023-09-01 22:08:33,331 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 22:08:33,332 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 22:08:33,353 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: check_version
+2023-09-01 22:08:33,354 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: check_version
+2023-09-01 22:08:34,340 INFO    Thread-181:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/files/wandb-summary.json
+2023-09-01 22:08:34,346 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: run_start
+2023-09-01 22:08:34,351 DEBUG   HandlerThread:15186 [system_info.py:__init__():31] System info init
+2023-09-01 22:08:34,351 DEBUG   HandlerThread:15186 [system_info.py:__init__():46] System info init done
+2023-09-01 22:08:34,351 INFO    HandlerThread:15186 [system_monitor.py:start():181] Starting system monitor
+2023-09-01 22:08:34,352 INFO    SystemMonitor:15186 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-01 22:08:34,352 INFO    HandlerThread:15186 [system_monitor.py:probe():201] Collecting system info
+2023-09-01 22:08:34,353 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started cpu monitoring
+2023-09-01 22:08:34,353 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started disk monitoring
+2023-09-01 22:08:34,355 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started gpu monitoring
+2023-09-01 22:08:34,356 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started memory monitoring
+2023-09-01 22:08:34,358 INFO    SystemMonitor:15186 [interfaces.py:start():190] Started network monitoring
+2023-09-01 22:08:34,401 DEBUG   HandlerThread:15186 [system_info.py:probe():195] Probing system
+2023-09-01 22:08:34,402 DEBUG   HandlerThread:15186 [system_info.py:_probe_git():180] Probing git
+2023-09-01 22:08:34,436 DEBUG   HandlerThread:15186 [system_info.py:_probe_git():188] Probing git done
+2023-09-01 22:08:34,436 DEBUG   HandlerThread:15186 [system_info.py:probe():240] Probing system done
+2023-09-01 22:08:34,436 DEBUG   HandlerThread:15186 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-212-generic-x86_64-with-glibc2.27', 'python': '3.9.17', 'heartbeatAt': '2023-09-01T16:38:34.401258', 'startedAt': '2023-09-01T16:38:25.652100', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:JainitBITW/ANLP-A1.git', 'commit': 'c9454d17ecc8c05b32e980e06cfc7e24822a57de'}, 'email': 'jainit.bafna@research.iiit.ac.in', 'root': '/home2/jainit/ANLP-A1', 'host': 'gnode030', 'username': 'jainit', 'executable': '/home2/jainit/anlp/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1309.0813000000003, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1232.481, 'min': 1200.0, 'max': 3400.0}, {'current': 1199.964, 'min': 1200.0, 'max': 3400.0}, {'current': 1347.282, 'min': 1200.0, 'max': 3400.0}, {'current': 1521.918, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.135, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.607, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.65, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.935, 'min': 1200.0, 'max': 3400.0}, {'current': 2401.06, 'min': 1200.0, 'max': 3400.0}, {'current': 2404.626, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.812, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.421, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.892, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.444, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.753, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.564, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.671, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.229, 'min': 1200.0, 'max': 3400.0}, {'current': 1203.067, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.481, 'min': 1200.0, 'max': 3400.0}, {'current': 1215.344, 'min': 1200.0, 'max': 3400.0}, {'current': 1199.953, 'min': 1200.0, 'max': 3400.0}, {'current': 1400.89, 'min': 1200.0, 'max': 3400.0}, {'current': 1826.483, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.079, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.714, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.186, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.756, 'min': 1200.0, 'max': 3400.0}, {'current': 2399.947, 'min': 1200.0, 'max': 3400.0}, {'current': 2402.077, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.007, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.616, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.849, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.326, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.852, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.682, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.8, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.422, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.33, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.388, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 136.48257064819336, 'used': 93.48075485229492}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 125.78692245483398}}
+2023-09-01 22:08:34,436 INFO    HandlerThread:15186 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-01 22:08:34,436 INFO    HandlerThread:15186 [system_monitor.py:probe():214] Publishing system info
+2023-09-01 22:08:34,436 DEBUG   HandlerThread:15186 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-01 22:08:34,438 DEBUG   HandlerThread:15186 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-01 22:08:34,440 INFO    HandlerThread:15186 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-01 22:08:34,441 DEBUG   SenderThread:15186 [sender.py:send():379] send: files
+2023-09-01 22:08:34,442 INFO    SenderThread:15186 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-01 22:08:34,467 DEBUG   SenderThread:15186 [sender.py:send():379] send: telemetry
+2023-09-01 22:08:34,467 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:08:34,468 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:08:35,338 INFO    Thread-181:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/files/requirements.txt
+2023-09-01 22:08:35,338 INFO    Thread-181:15186 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/files/wandb-metadata.json
+2023-09-01 22:08:35,972 INFO    wandb-upload_0:15186 [upload_job.py:push():131] Uploaded file /tmp/tmps2fy1io_wandb/fhk2z839-wandb-metadata.json
+2023-09-01 22:08:38,034 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:08:43,035 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:08:48,036 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:08:49,465 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:08:49,466 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:08:53,782 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:08:58,783 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:03,794 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:04,465 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:09:04,466 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:09:05,365 INFO    Thread-181:15186 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/jainit/ANLP-A1/src/wandb/run-20230901_220825-m3dl2qvy/files/config.yaml
+2023-09-01 22:09:09,845 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:14,846 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:19,465 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:09:19,466 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:09:20,776 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:25,777 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:30,778 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:34,359 DEBUG   SystemMonitor:15186 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-01 22:09:34,362 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 22:09:34,465 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:09:34,466 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:09:35,864 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:40,865 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:45,866 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:49,466 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:09:49,467 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:09:51,841 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:09:56,842 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:01,843 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:04,365 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 22:10:04,465 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:10:04,466 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:10:07,777 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:12,778 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:17,779 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:19,466 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:10:19,467 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:10:22,871 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:27,872 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:32,873 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:34,367 DEBUG   SenderThread:15186 [sender.py:send():379] send: stats
+2023-09-01 22:10:34,466 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:10:34,467 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:10:37,875 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:42,876 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:47,877 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 22:10:49,466 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 22:10:49,468 DEBUG   SenderThread:15186 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 22:10:53,867 DEBUG   HandlerThread:15186 [handler.py:handle_request():144] handle_request: status_report

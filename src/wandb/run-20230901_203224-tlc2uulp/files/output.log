@@ -1,0 +1,125 @@
+
+The Device is cuda
+Epoch: 1, Loss: 5.796400186173829 , Perplexity:392.81302876154865
+VALID: Epoch: 1, Loss: 18.364809598154064 , Perplexity:251.31196892495825
+Epoch: 2, Loss: 5.17212230931168 , Perplexity:195.82268617387618
+VALID: Epoch: 2, Loss: 16.386901935349808 , Perplexity:223.55503055934324
+Epoch: 3, Loss: 4.8856876488709515 , Perplexity:144.92671579268128
+VALID: Epoch: 3, Loss: 15.479387299998482 , Perplexity:222.4046159177253
+Epoch: 4, Loss: 4.7420585101969985 , Perplexity:124.39453998014767
+VALID: Epoch: 4, Loss: 15.024325244278835 , Perplexity:233.4202695015013
+Epoch: 5, Loss: 4.653583254714844 , Perplexity:113.33267016679433
+VALID: Epoch: 5, Loss: 14.744007949252602 , Perplexity:254.32276633767827
+Epoch: 6, Loss: 4.596685966926258 , Perplexity:106.72040914248618
+Epoch 00006: reducing learning rate of group 0 to 5.0000e-04.
+VALID: Epoch: 6, Loss: 14.563739537250756 , Perplexity:291.4324555537611
+Epoch: 7, Loss: 4.478386290755143 , Perplexity:94.07054758634547
+VALID: Epoch: 7, Loss: 14.1889291448303 , Perplexity:289.7524084204697
+Epoch: 8, Loss: 4.434029673174264 , Perplexity:90.01593263720537
+VALID: Epoch: 8, Loss: 14.048393500270414 , Perplexity:307.6842812634595
+Epoch: 9, Loss: 4.402254846152826 , Perplexity:87.0946361880195
+Epoch 00009: reducing learning rate of group 0 to 2.5000e-04.
+VALID: Epoch: 9, Loss: 13.947720905294158 , Perplexity:301.8222621551501
+Epoch: 10, Loss: 4.334252697316351 , Perplexity:81.13964761585511
+VALID: Epoch: 10, Loss: 13.73226881856176 , Perplexity:325.25155269731584
+Model Saved
+Epoch: 11, Loss: 4.311187167791434 , Perplexity:79.17408292338142
+VALID: Epoch: 11, Loss: 13.659190003366067 , Perplexity:328.0099778637613
+Epoch: 12, Loss: 4.293199083367731 , Perplexity:77.75870281380706
+Epoch 00012: reducing learning rate of group 0 to 1.2500e-04.
+VALID: Epoch: 12, Loss: 13.60219812308409 , Perplexity:324.14486460060806
+Epoch: 13, Loss: 4.2556029709070184 , Perplexity:74.68745549254098
+VALID: Epoch: 13, Loss: 13.483081874240769 , Perplexity:324.15287699461595
+Epoch: 14, Loss: 4.243748524670947 , Perplexity:73.85520187673129
+VALID: Epoch: 14, Loss: 13.44552327907401 , Perplexity:319.20496452385584
+Epoch: 15, Loss: 4.234635860073491 , Perplexity:73.04954330922683
+Epoch 00015: reducing learning rate of group 0 to 6.2500e-05.
+VALID: Epoch: 15, Loss: 13.416651506096136 , Perplexity:339.2167176885558
+Epoch: 16, Loss: 4.214434399422244 , Perplexity:71.65754612130576
+VALID: Epoch: 16, Loss: 13.352646957316074 , Perplexity:328.7906262771577
+Epoch: 17, Loss: 4.2086700394142 , Perplexity:71.17000758391686
+VALID: Epoch: 17, Loss: 13.334383661028237 , Perplexity:336.99527403343046
+Epoch: 18, Loss: 4.203868614050021 , Perplexity:70.89337402029246
+Epoch 00018: reducing learning rate of group 0 to 3.1250e-05.
+VALID: Epoch: 18, Loss: 13.319171243013482 , Perplexity:340.3504926872928
+Epoch: 19, Loss: 4.193192331938691 , Perplexity:70.02093141260856
+VALID: Epoch: 19, Loss: 13.28534544046478 , Perplexity:338.4672510596575
+Epoch: 20, Loss: 4.19034854874288 , Perplexity:70.01252733923256
+VALID: Epoch: 20, Loss: 13.2763354454244 , Perplexity:344.52359735633803
+Model Saved
+Epoch: 21, Loss: 4.187890505549883 , Perplexity:69.60792868495729
+Epoch 00021: reducing learning rate of group 0 to 1.5625e-05.
+VALID: Epoch: 21, Loss: 13.268547595418616 , Perplexity:342.67630595489857
+Epoch: 22, Loss: 4.182237807645035 , Perplexity:69.21811461269128
+VALID: Epoch: 22, Loss: 13.25063807961499 , Perplexity:352.39478304672997
+Epoch: 23, Loss: 4.180866944134302 , Perplexity:69.1658367475077
+VALID: Epoch: 23, Loss: 13.246294755042658 , Perplexity:349.7463642405772
+Epoch: 24, Loss: 4.179673431846979 , Perplexity:69.14117111882996
+Epoch 00024: reducing learning rate of group 0 to 7.8125e-06.
+VALID: Epoch: 24, Loss: 13.2425133346428 , Perplexity:343.50196186217386
+Epoch: 25, Loss: 4.176667755240885 , Perplexity:68.91175378991808
+VALID: Epoch: 25, Loss: 13.232990410618987 , Perplexity:346.7822884657974
+Epoch: 26, Loss: 4.175970802879167 , Perplexity:68.78311123876709
+VALID: Epoch: 26, Loss: 13.230782247446875 , Perplexity:343.3783583543128
+Epoch: 27, Loss: 4.175356745645581 , Perplexity:68.75847112500064
+Epoch 00027: reducing learning rate of group 0 to 3.9063e-06.
+VALID: Epoch: 27, Loss: 13.228836721980208 , Perplexity:349.20289505454963
+Epoch: 28, Loss: 4.173800225150245 , Perplexity:68.70553041574857
+VALID: Epoch: 28, Loss: 13.223905177984912 , Perplexity:346.7463674215808
+Epoch: 29, Loss: 4.173452241385959 , Perplexity:68.67982268736856
+VALID: Epoch: 29, Loss: 13.22280265652865 , Perplexity:342.38178329053216
+Epoch: 30, Loss: 4.173150621576639 , Perplexity:68.6023571984455
+Epoch 00030: reducing learning rate of group 0 to 1.9531e-06.
+VALID: Epoch: 30, Loss: 13.221847030589911 , Perplexity:344.77380919661863
+Model Saved
+Epoch: 31, Loss: 4.172353406724883 , Perplexity:68.64976136821198
+VALID: Epoch: 31, Loss: 13.219321204475243 , Perplexity:346.7988065361332
+Epoch: 32, Loss: 4.172183021076125 , Perplexity:68.58899998432108
+VALID: Epoch: 32, Loss: 13.218781369422933 , Perplexity:348.2028983356113
+Epoch: 33, Loss: 4.172032524930195 , Perplexity:68.52128209639935
+Epoch 00033: reducing learning rate of group 0 to 9.7656e-07.
+VALID: Epoch: 33, Loss: 13.218304550539406 , Perplexity:344.3499647978293
+Epoch: 34, Loss: 4.17161513332239 , Perplexity:68.4652480341129
+VALID: Epoch: 34, Loss: 13.216982123315782 , Perplexity:349.180695485297
+Epoch: 35, Loss: 4.171536200895974 , Perplexity:68.46408295973396
+VALID: Epoch: 35, Loss: 13.21673204068938 , Perplexity:345.5344083950693
+Epoch: 36, Loss: 4.171457813065283 , Perplexity:68.51890332899018
+Epoch 00036: reducing learning rate of group 0 to 4.8828e-07.
+VALID: Epoch: 36, Loss: 13.216483683512646 , Perplexity:350.74822109124335
+Epoch: 37, Loss: 4.171264053624919 , Perplexity:68.46101857048917
+VALID: Epoch: 37, Loss: 13.215869792974406 , Perplexity:348.4992023784063
+Epoch: 38, Loss: 4.171231024222773 , Perplexity:68.48552882376464
+VALID: Epoch: 38, Loss: 13.215765145492854 , Perplexity:345.85389305272656
+Epoch: 39, Loss: 4.171204255040201 , Perplexity:68.50328946799011
+Epoch 00039: reducing learning rate of group 0 to 2.4414e-07.
+VALID: Epoch: 39, Loss: 13.21568033234586 , Perplexity:353.04029973574916
+Epoch: 40, Loss: 4.171111369581944 , Perplexity:68.50751966863942
+VALID: Epoch: 40, Loss: 13.215386042148404 , Perplexity:346.34808030242436
+Model Saved
+Epoch: 41, Loss: 4.171099527352824 , Perplexity:68.38116976115668
+VALID: Epoch: 41, Loss: 13.215348522260886 , Perplexity:347.1279535740901
+Epoch: 42, Loss: 4.1710936366984015 , Perplexity:68.48528368939733
+Epoch 00042: reducing learning rate of group 0 to 1.2207e-07.
+VALID: Epoch: 42, Loss: 13.215329858824369 , Perplexity:346.98600087724884
+Epoch: 43, Loss: 4.171049684341864 , Perplexity:68.63250743563951
+VALID: Epoch: 43, Loss: 13.215190604005299 , Perplexity:340.6672053020902
+Epoch: 44, Loss: 4.1710467851434005 , Perplexity:68.49908128481034
+VALID: Epoch: 44, Loss: 13.215181418437348 , Perplexity:349.146719605066
+Epoch: 45, Loss: 4.171046076220517 , Perplexity:68.60553054727018
+Epoch 00045: reducing learning rate of group 0 to 6.1035e-08.
+VALID: Epoch: 45, Loss: 13.215179172347817 , Perplexity:344.0956933737247
+Epoch: 46, Loss: 4.171026365256604 , Perplexity:68.41162443604817
+VALID: Epoch: 46, Loss: 13.21511672184619 , Perplexity:345.9155315581092
+Epoch: 47, Loss: 4.171024479225607 , Perplexity:68.5485488944886
+VALID: Epoch: 47, Loss: 13.215110746309815 , Perplexity:344.81880529021424
+Epoch: 48, Loss: 4.171022289931172 , Perplexity:68.48020634534346
+Epoch 00048: reducing learning rate of group 0 to 3.0518e-08.
+VALID: Epoch: 48, Loss: 13.215103809939972 , Perplexity:339.0406698461046
+Epoch: 49, Loss: 4.17101124504704 , Perplexity:68.58632002018881
+VALID: Epoch: 49, Loss: 13.215068816290877 , Perplexity:349.0063065373288
+[nltk_data] Downloading package punkt to /home2/jainit/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home2/jainit/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

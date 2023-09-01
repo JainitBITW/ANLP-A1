@@ -1,0 +1,256 @@
+{
+    "os": "Linux-4.15.0-212-generic-x86_64-with-glibc2.27",
+    "python": "3.9.17",
+    "heartbeatAt": "2023-09-01T16:13:23.124094",
+    "startedAt": "2023-09-01T16:13:11.345661",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:JainitBITW/ANLP-A1.git",
+        "commit": "c9454d17ecc8c05b32e980e06cfc7e24822a57de"
+    },
+    "email": "jainit.bafna@research.iiit.ac.in",
+    "root": "/home2/jainit/ANLP-A1",
+    "host": "gnode030",
+    "username": "jainit",
+    "executable": "/home2/jainit/anlp/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1281.7756500000003,
+        "min": 1200.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1202.656,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1204.4,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.543,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2407.217,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.565,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1453.56,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1473.95,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1576.126,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.796,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.619,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.419,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.678,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.884,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.628,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.723,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.441,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.518,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.668,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.691,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.494,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.485,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.182,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.434,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2407.313,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.959,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1349.984,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1452.974,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1601.186,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.657,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.039,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.958,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.366,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.916,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.37,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.533,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.647,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.148,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.758,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1199.978,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.09,
+            "min": 1200.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "total": 136.48257064819336,
+        "used": 93.48074340820312
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 125.78692245483398
+    }
+}
