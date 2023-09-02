@@ -22,6 +22,8 @@ cd ..
 ### 3.  Make the Ngram Data using file [data_maker.py](data_maker.py)
     
 ```bash
-python3 data_maker.py  --input <file.txt> --ngram --n 5 --output <dir_name>
+python data_maker.py  --input <file.txt> --ngram --n 5 --output <dir_name> --glove <glove_file>
 
 ``` 
+
+

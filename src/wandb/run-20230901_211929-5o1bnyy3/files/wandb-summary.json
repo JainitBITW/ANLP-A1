@@ -1,1 +1,0 @@
-{"train_loss": 4.404679594380048, "epoch": 6, "lr": 0.0005, "perplexity_train": 4.404679594380048, "_timestamp": 1693583533.170316, "_runtime": 159.4748899936676, "_step": 11, "val_loss": 13.955403266429713, "perplexity_val": 232.50246405263795, "_wandb": {"runtime": 177}}

@@ -1,7 +1,0 @@
-
-The Device is cuda
-Epoch: 1, Loss: 5.704872164112 , Perplexity:431.15910588571575
-VALID: Epoch: 1, Loss: 18.07482018333233 , Perplexity:233.0901294620541
-wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
-wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
-wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
