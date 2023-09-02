@@ -15,7 +15,7 @@ import re
 import config_hp as hp 
 import os 
 
-class Ngram_Dataset(Dataset):
+class Custom_Dataset(Dataset):
     '''This class helps in creating the Pretrain Dataset'''
     def __init__(self, data):
         random.shuffle(data)
@@ -36,8 +36,6 @@ def custom_collate(batch):
     padded_labels = torch.nn.utils.rnn.pad_sequence(labels, batch_first=True)
 
     return ( padded_sentences,padded_labels)
-
-
 
 
 def parse_args():
@@ -160,11 +158,12 @@ def make_glove_dict(path):
 
 
 def make_dataloaders(data, ngram=True):
+    datasets = {'train':Custom_Dataset(data['train']), 'val':Custom_Dataset(data['val']), 'test':Custom_Dataset(data['test'])}
     if ngram:
-        datasets = {'train':Ngram_Dataset(data['train']), 'val':Ngram_Dataset(data['val']), 'test':Ngram_Dataset(data['test'])}
         dataloaders = {'train':DataLoader(datasets['train'], batch_size=hp.BATCH_SIZE, shuffle=True), 'val':DataLoader(datasets['val'], batch_size=hp.BATCH_SIZE, shuffle=True), 'test':DataLoader(datasets['test'], batch_size=hp.BATCH_SIZE, shuffle=True)} 
     else:
-        return None
+        dataloaders = {'train':DataLoader(datasets['train'], batch_size=hp.BATCH_SIZE ,collate_fn = custom_collate, shuffle=True), 'val':DataLoader(datasets['val'], batch_size=hp.BATCH_SIZE,collate_fn = custom_collate, shuffle=True), 'test':DataLoader(datasets['test'], batch_size=hp.BATCH_SIZE,collate_fn = custom_collate, shuffle=True)} 
+
     return dataloaders
 
 if __name__ == '__main__': 
@@ -211,6 +210,21 @@ if __name__ == '__main__':
             
         with open(f'../{args.output}/ngrams_data.json', 'w') as f:
             json.dump(ngrams_data, f)
+    else: 
+        print('Creating the language model dataset')
+        data = {'train':[], 'val':[], 'test':[]}
+        for split in words_all:
+            for sentence in words_all[split]:
+                data[split].append({'sentence':sentence[:-1], 'label':sentence[1:]})
+        dataloaders = make_dataloaders(data, ngram=False)
+        # create data folder
+        if not os.path.exists('data'):
+            os.makedirs('data')
+        with open(f'../{args.output}/lm_dataloader.pkl', 'wb') as f:
+            pickle.dump(dataloaders, f)
+        with open(f'../{args.output}/lm_data.json', 'w') as f:
+            json.dump(data, f)
+        
         
         
     
