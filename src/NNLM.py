@@ -114,8 +114,9 @@ def train_model(model, dataloader, optimizer, criterion, scheduler,wandb_to, to_
         print('-' * 10)
     return model
 
-def test_model(model, dataloader, criterion):
+def test_model(model, dataloader, criterion ,  device= 'cuda'):
     model.eval()
+    model.to(device)
     total_loss = 0
     with torch.no_grad():
         for x , y in dataloader:

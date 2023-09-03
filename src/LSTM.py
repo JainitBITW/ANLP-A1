@@ -56,7 +56,33 @@ class LSTM_LM(nn.Module):
         out = self.fc(lstm_out) # batch_size, seq_len, vocab_size
        
         return out, hidden
+    
+    def generate_text(model, word_to_id, word, num_words):
+        '''
+        This function generates text using the trained model
+        args: word_to_id: dict
+              word: str
+              num_words: int
+        return: generated_text: str
+        '''
+        start_ = "<SOS>"
+        start_id = word_to_id[start_]
+        id_to_word = {v:k for k,v in word_to_id.items()}
+        model.eval()
+        generated_text = word + ' '
+        if word not in word_to_id.keys():
+            print("hi")
+            word = "<OOV>"
+        word_id = word_to_id[word]
         
+        word_id = torch.tensor(word_id).view(1,1).to(device)
+        hidden = None
+        for i in range(num_words):
+            output, hidden = model(word_id, hidden)
+            output = output.view(-1)
+            word_id = torch.argmax(output).view(1,1)
+            generated_text += id_to_word[word_id.item()] + ' '
+        return generated_text
 
 def train(model, loader, optimizer, criterion, scheduler , wandb_, save_):
     model.to(device)
@@ -97,8 +123,9 @@ def train(model, loader, optimizer, criterion, scheduler , wandb_, save_):
         print('-' * 10)
     return model
 
-def test(model, loader, criterion):
+def test(model, loader, criterion, device= 'cuda'):
     model.eval()
+    model.to(device)
     total_loss = 0
     with torch.no_grad():
         for batch_idx, (data, target) in enumerate(loader):

@@ -60,7 +60,7 @@ def preprocess(corpus):
     corpus = re.sub(r'\.', '.', corpus)
     corpus = re.sub(r'™', ' <TM> ', corpus)
     corpus = re.sub(r'’|’|‘', '\'', corpus)
-    corpus = re.sub(r'“|”|‘|\`\`|\'\' ', '\"', corpus)
+    corpus = re.sub(r'“|”|‘|`|\' ', ' ', corpus)
     corpus = re.sub(r',', ',', corpus)
     corpus = re.sub(r'•', ' ', corpus)
     corpus = re.sub(r'–|—|-', ' ', corpus)
@@ -92,7 +92,7 @@ def tokenize(corpus ,glove,train_split=0.5 , val_split=0.16, test_split=0.34 ):
     for split in splits:
         for sentence in splits[split]:
             words = word_tokenize(sentence)
-            words = [word.lower() for word in words]
+            words = [word.lower() for word in words if word not in ['.', ',', '!', '?', ';', ':', '<TM>', '<NUM>', '<LINK>']]
             words = ['<SOS>'] + words + ['<EOS>']
             # if split == 'train': # so that we dont bias with test set 
             for i in range(len(words)):
