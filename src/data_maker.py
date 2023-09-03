@@ -101,7 +101,8 @@ def tokenize(corpus ,glove,train_split=0.5 , val_split=0.16, test_split=0.34 ):
                 else:
                     word_count[words[i]] += 1
             words_all[split].append(words)
-    
+    with open(f'../{args.output}/sentences.json', 'w') as f:
+        json.dump(words_all, f)
     for split in words_all:
         for i , sentences in enumerate (words_all[split]):
             for j, word in enumerate(sentences):

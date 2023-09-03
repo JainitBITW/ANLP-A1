@@ -40,14 +40,18 @@ class LSTM_LM(nn.Module):
         self.lstm = nn.LSTM(input_size=self.embedding_dim, hidden_size=hidden_layer , num_layers=self.num_layers, dropout=dropout, batch_first = True)
         self.fc = nn.Linear(hidden_layer,self.vocab_size )
         self.dropout = nn.Dropout(dropout)
+        
        
-    def forward(self, x):
+    def forward(self, x, hidden=None):
         # print(x.shape)
        
         embeds = self.embedding(x) # batch_size, seq_len, embedding_dim
         # print(embeds.shape)
-        
-        lstm_out, hidden = self.lstm(embeds) # lstm output shape: batch_size, seq_len, hidden_layer
+        if hidden is None: 
+            lstm_out, hidden = self.lstm(embeds) # batch_size, seq_len, hidden_layer
+        else:# useful for generation
+            lstm_out, hidden = self.lstm(embeds, hidden)
+       
         lstm_out = self.dropout(lstm_out) # batch_size, seq_len, hidden_layer
         out = self.fc(lstm_out) # batch_size, seq_len, vocab_size
        
